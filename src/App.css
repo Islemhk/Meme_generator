@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+nav {
+    background: rgb(103,34,128);
+    background: linear-gradient(90deg, rgba(103,34,128,1) 0%, rgba(166,38,211,1) 35%);
+    display: flex;
+    height:6.019vw ;
+    align-items: center;
+    justify-content: center;
+}
+.nav--logo,img{
+    width: 4.87vw;
+}
+.nav--logo-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/*           ------------- Section -------------         */
+
+/*.form {
+    display: grid;
+    grid-template:40px 40px /1fr 1fr ;
+    gap :10px;
+    width: 50%;
+    margin: 5rem auto;
+    margin-bottom: 0;
+    row-gap: 0;
+}
+.form label{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.form input{
+    border: 1.4px solid #000;
+    border-radius:0.5rem;
+    font-size: 1rem;
+    text-indent: 15px;
+}
+.form button {
+    grid-column: 1/-1;
+    height: 2.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #A626D3;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.memeContainer{
+    width: 200%;
+    position: relative;
+}
+#meme_img{
+    width: 100%;
+}
+.meme--topText,.meme--bottomText{
+    position: absolute;
+    left: 40%;
+    font-weight: bold;
+    font-size:2.5rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px #000;
+}
+.meme--topText{
+    top: 10%;
+}
+.meme--bottomText{
+    bottom: 10%;
+}*/
+
+.form{
+    width: 50%;
+    margin:1rem auto
+}
+.grid-cols-2{
+    display: grid;
+    grid-template:40px 40px /1fr 1fr ;
+    gap :10px;
+    width: 50%;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    row-gap: 0;
+}
+
+.Stylegrid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    grid-template-rows: 1fr 1fr; /* 2 rows */
+}
+.Stylegrid *{
+    margin: 0 1rem;
+}
+.Stylegrid input{
+    width: 2.5rem;
+    text-indent: 0.5rem;
+}
+
+.Stylegrid label,.Stylegrid input{
+    display: flex;
+    flex-direction: column;
+}
+
+.Stylegrid label{
+    column-gap: 3rem;
+}
+.form button {
+    height: 2.3rem;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #A626D3;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0 auto;
+    
+}
+.memeContainer{
+    position: relative;
+}
+#meme_imge{
+    width: 100%;
+}
+.meme--topText,.meme--bottomText{
+    position: absolute;
+    font-weight: bold;
+    font-size:2.5rem;
+    color: aliceblue;
+    text-shadow: 1px 1px 5px #000;
+}
+.meme--topText{
+    top: 0%;
+}
+.meme--bottomText{
+    bottom: 0%;
+}
